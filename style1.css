@@ -1,0 +1,443 @@
+
+
+.content {
+    text-align: center;
+    padding-top: 20%;
+}
+
+
+footer img {
+    width: 50px;
+    margin: 0.4%;
+    margin-left: 5%;
+}
+
+.logofoot {
+    scale: 2.4;
+}
+
+
+
+footer p {
+    font-size: 1.3rem;
+}
+
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+    gap: 20px;
+    padding-top: 4%;
+}
+
+.skill img {
+    grid-column: 2/3;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.grid1 {
+    grid-column: 2/3;
+    grid-row: 1;
+
+}
+
+
+
+
+
+li {
+    font-family: "Jost",
+            sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        color: #fcfcfc;
+        font-size: 1rem;
+}
+
+
+
+body {
+    background-color: #02111B;
+}
+@media screen and (min-width: 800px) { 
+
+    .grid1t {
+            grid-column: 2/3;
+            grid-row: 1;
+            padding-left: 10px;
+            padding-top: 7%;
+            text-align: center;
+            font-size: 5rem;
+        }
+
+footer {
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        width: auto;
+        height: 400px;
+        background-color: #092634;
+        align-items: center;
+        padding-left: 10%;
+    }
+
+h2 {
+    font-family: "Manrope", sans-serif;
+        color: #fcfcfc;
+        font-size: 3rem;
+        text-align: center;
+}
+
+.rail img {
+    padding: 2%;
+}
+
+.rail {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        padding-bottom: 10%;
+}
+
+h3 {
+        font-family: "Manrope", sans-serif;
+            color: #fcfcfc;
+            font-size: 2.5rem;
+}
+p {
+ font-family: "Jost",
+ sans-serif;
+ font-weight: 500;
+ font-style: normal;
+ color: #fcfcfc;
+}
+
+.myp {
+    font-size: 4rem;
+    color: #fcfcfc;
+    font-family: "Nothing You Could Do";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    padding-top: 90px;
+    border-bottom: #fcfcfc 2px solid;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.myp1 {
+    font-size: 4rem;
+    color: #fcfcfc;
+    font-family: "Nothing You Could Do";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    padding-top: 90px;
+    border-bottom: #fcfcfc 2px solid;
+    margin-left: 90px;
+    margin-right: 90px;
+    grid-column: 2/3;
+}
+
+.pil {
+    scale: 0.3;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.skill1 {
+    display: none;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .skill1 {
+            display: grid;
+            grid-template-columns: 1fr 8fr 1fr;
+            grid-template-rows: 1fr 6fr 1fr 6fr 1fr 6fr;
+            padding-top: 30px;
+        }
+    
+        .skill1 img {
+            grid-column: 2/3;
+            width: 100%;
+            border-radius: 20px;
+        }
+    
+        .skill1 .tekst1 {
+            grid-column: 2/3;
+            width: 100%;
+            border-radius: 20px;
+            grid-row: 2;
+            padding-bottom: 20%;
+        }
+    
+        .skill1 .tekst2 {
+            grid-column: 2/3;
+            width: 100%;
+            border-radius: 20px;
+            grid-row: 4;
+        }
+    
+        .skill1 .tekst3 {
+            grid-column: 2/3;
+            width: 100%;
+            border-radius: 20px;
+            grid-row: 6;
+        }
+    
+        .skill1 .tekst4 {
+            grid-column: 2/3;
+            width: 100%;
+            border-radius: 20px;
+            grid-row: 8;
+            padding-bottom: 20%;
+            padding-top: 15%;
+        }
+    
+        p {
+            font-family: "Jost",
+                sans-serif;
+            font-weight: 500;
+            font-style: normal;
+            color: #fcfcfc;
+        }
+    
+        /* GRID TING TING TING TING TING TING TING TING TING TING TING TING TING */
+        a .grid1 {
+            grid-column: 2/3;
+            grid-row: 1;
+    
+        }
+    
+        .grid1t {
+            grid-column: 2/3;
+            grid-row: 2;
+            padding-left: 10px;
+            padding-top: 7%;
+        }
+    
+        .grid2 {
+            grid-column: 2/3;
+            grid-row: 3;
+    
+        }
+    
+        .grid2t {
+            grid-column: 2/3;
+            grid-row: 3;
+            padding-left: 10px;
+            padding-top: 7%;
+        }
+    
+        .grid3 {
+            grid-column: 2/3;
+            grid-row: 5;
+    
+        }
+    
+        .grid3t {
+            grid-column: 2/3;
+            grid-row: 5;
+            padding-left: 10px;
+            padding-top: 7%;
+        }
+    
+        .grid4 {
+            grid-column: 2/3;
+            grid-row: 7;
+    
+        }
+    
+        .grid4t {
+            grid-column: 2/3;
+            grid-row: 7;
+            padding-left: 10px;
+            padding-top: 7%;
+        }
+    
+        .grid5 {
+            grid-column: 2/3;
+            grid-row: 9;
+    
+        }
+    
+        .grid5t {
+            grid-column: 2/3;
+            grid-row: 10;
+            padding-left: 10px;
+            padding-top: 7%;
+        }
+    
+        .grid6 {
+            grid-column: 2/3;
+            grid-row: 11;
+    
+        }
+    
+        .grid6t {
+            grid-column: 2/3;
+            grid-row: 6;
+            padding-left: 10px;
+            padding-top: 7%;
+        }
+
+.grid1t {
+        grid-column: 2/3;
+        grid-row: 1;
+        padding-left: 10px;
+        padding-top: 7%;
+        text-align: center;
+        font-size: 2rem;
+    }
+        .grid1t1 {
+            grid-column: 2/3;
+            grid-row: 1;
+            padding-left: 10px;
+            padding-top: 7%;
+            font-size: 2rem;
+        }
+
+.myp {
+        font-size: 1rem;
+        color: #fcfcfc;
+        font-family: "Nothing You Could Do";
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 20px;
+        padding-top: 90px;
+        border-bottom: #fcfcfc 2px solid;
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    .myp1 {
+        font-size: 2rem;
+        color: #fcfcfc;
+        font-family: "Nothing You Could Do";
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        padding: 20px;
+        border-bottom: #fcfcfc 2px solid;
+        margin-left: 5%;
+        margin-right: 5%;
+        grid-column: 2/3;
+    }
+
+
+
+
+    .pil {
+            scale: 0.7;
+            width: 100%;
+            padding-top: 20px;
+        }
+
+    h3 {
+            font-family: "Manrope", sans-serif;
+            color: #fcfcfc;
+            font-size: 1.2rem;
+        }
+
+h2 {
+    font-family: "Manrope", sans-serif;
+    color: #fcfcfc;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rail {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20%;
+}
+.rail img {
+    padding: 10px;
+    grid-column: 2/3;
+display: inline;
+    animation: 30s scroll linear infinite;
+    width: 450px;
+}
+
+
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-family: "Jost",
+        sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fcfcfc;
+    font-size: 0.8rem;
+}
+
+footer p {
+    font-family: "Jost",
+        sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fcfcfc;
+}
+
+footer {
+    width: auto;
+    height: 400px;
+    background-color: #092634;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-top: 5%;
+        left: 0;
+        padding-bottom: 20%;
+}
+
+.social {
+    margin-bottom: 60px;
+    
+}
+
+.logofoot {
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+
+.myp {
+    font-size: 3rem;
+    color: #fcfcfc;
+    font-family: "Nothing You Could Do";
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    padding: 20px;
+    padding-top: 90px;
+    border-bottom: #fcfcfc 2px solid;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+footer .social {
+    display: block;
+    margin-left: 5%;
+}
+
+footer .logofoot {
+    margin-left: 42%;
+}
+
+footer p {
+    text-align: center;
+}
+
+}
